@@ -1,6 +1,4 @@
 import { Card } from "@/components/ui/card";
-import unileverLogo from "@/assets/unilever-logo.png";
-import lenovoLogo from "@/assets/lenovo-logo.png";
 
 const testimonials = [
   {
@@ -8,14 +6,14 @@ const testimonials = [
     author: "Soundar K",
     title: "Global Head of CMI, Fabric Care",
     company: "Unilever",
-    logo: unileverLogo
+    logo: "https://spectacular-visitor-7cb.notion.site/image/attachment%3A41de9d75-3ee0-4670-9bee-9878ceb68691%3Aunilever-958x575.png"
   },
   {
     quote: "Aqxle's integral to our change management initiatives",
     author: "Ajit S",
     title: "President & Global Head of DTC",
     company: "Lenovo",
-    logo: lenovoLogo
+    logo: "https://spectacular-visitor-7cb.notion.site/image/attachment%3Aa7c79984-59ff-4a83-9585-a81dce0ae998%3ALenovo_logo_2015.svg.png"
   }
 ];
 

@@ -1,12 +1,5 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import bharadProfile from "@/assets/bharad-profile.jpg";
-import anandhaProfile from "@/assets/anandhavelu-profile.jpg";
-import bessieProfile from "@/assets/bessie-profile.jpg";
-import anandanProfile from "@/assets/anandan-profile.jpg";
-import adobeLogo from "@/assets/adobe-logo.png";
-import wppLogo from "@/assets/wpp-logo.png";
-import microsoftLogo from "@/assets/microsoft-research-logo.png";
 
 const founders = [
   {
@@ -15,7 +8,7 @@ const founders = [
     experience: "25 Years",
     background: "Media agency veteran",
     detail: "ex-head of research & investment analytics",
-    image: bharadProfile,
+    image: "https://spectacular-visitor-7cb.notion.site/image/attachment%3A86984f82-9911-4abb-96d9-9fb318e5a979%3ABharad_profile.heic.jpg",
     linkedin: "http://www.linkedin.com/in/bharadr"
   },
   {
@@ -24,9 +17,9 @@ const founders = [
     experience: "30 Patents",
     background: "AI Scientist",
     detail: "Founding member of Adobe Research, India",
-    image: anandhaProfile,
+    image: "https://spectacular-visitor-7cb.notion.site/image/attachment%3A8e507811-2382-4f14-89c9-81ce5fe6bb64%3AAnandhavelu_N_2.jpg",
     linkedin: "https://www.linkedin.com/in/anandhavelu/",
-    companyLogo: adobeLogo
+    companyLogo: "https://spectacular-visitor-7cb.notion.site/image/attachment%3A14822975-603a-4f28-bad6-a7d2a969e393%3Aadobe.png"
   }
 ];
 
@@ -36,16 +29,16 @@ const advisors = [
     title: "Investor/Advisor",
     background: "ex-CEO, WPP China",
     detail: "Martech investor, WithinLink",
-    image: bessieProfile,
-    companyLogo: wppLogo
+    image: "https://spectacular-visitor-7cb.notion.site/image/attachment%3A2ed6a714-3f34-4e2c-935c-7e60cca03a49%3ABessie_.jpg",
+    companyLogo: "https://spectacular-visitor-7cb.notion.site/image/attachment%3A5bd2baaf-a29b-42cd-9164-8d1493015b61%3AWPP.png"
   },
   {
     name: "Dr. P. Anandan",
     title: "AI Advisor",
     background: "Distinguished Scientist &",
     detail: "Emeritus Researcher",
-    image: anandanProfile,
-    companyLogo: microsoftLogo
+    image: "https://spectacular-visitor-7cb.notion.site/image/attachment%3A28f48296-1155-41fa-bd3b-70d78442dd23%3Aanandan_2.jpeg",
+    companyLogo: "https://spectacular-visitor-7cb.notion.site/image/attachment%3A6e19f99e-36b7-4b79-adde-359f3b2a2bc0%3AMSFT_Research.jpeg"
   }
 ];
 
