@@ -1,6 +1,5 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-
 import bharadProfile from "@/assets/Bharad profile.heic.jpg";
 import anandhavelunProfile from "@/assets/Anandhavelu N 2.jpg";
 import adobeLogo from "@/assets/adobe.png";

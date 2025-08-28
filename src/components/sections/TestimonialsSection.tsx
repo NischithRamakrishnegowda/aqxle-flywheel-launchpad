@@ -1,5 +1,4 @@
 import { Card } from "@/components/ui/card";
-
 import unileverLogo from "@/assets/unilever-958x575.png";
 import lenovoLogo from "@/assets/Lenovo_logo_2015.svg.png";
 
