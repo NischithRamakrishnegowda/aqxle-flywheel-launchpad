@@ -6,24 +6,34 @@ export const HeroSection = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src={heroBackground} 
+        <img
+          src={heroBackground}
           alt="Data analytics visualization background"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 hero-gradient opacity-90"></div>
       </div>
-      
+
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
         {/* Aqxle Logo */}
         <div className="mb-8 animate-fade-up">
           <div className="text-8xl md:text-9xl font-black tracking-wider text-primary-foreground mb-4">
-            <span className="inline-block transform hover:scale-105 transition-transform duration-300">a</span>
-            <span className="inline-block transform hover:scale-105 transition-transform duration-300 delay-75">q</span>
-            <span className="inline-block text-accent-cyan transform hover:scale-105 transition-transform duration-300 delay-150">x</span>
-            <span className="inline-block transform hover:scale-105 transition-transform duration-300 delay-225">l</span>
-            <span className="inline-block transform hover:scale-105 transition-transform duration-300 delay-300">e</span>
+            <span className="inline-block transform hover:scale-105 transition-transform duration-300">
+              a
+            </span>
+            <span className="inline-block transform hover:scale-105 transition-transform duration-300 delay-75">
+              q
+            </span>
+            <span className="inline-block text-accent-cyan transform hover:scale-105 transition-transform duration-300 delay-150">
+              x
+            </span>
+            <span className="inline-block transform hover:scale-105 transition-transform duration-300 delay-225">
+              l
+            </span>
+            <span className="inline-block transform hover:scale-105 transition-transform duration-300 delay-300">
+              e
+            </span>
           </div>
         </div>
 
@@ -38,8 +48,8 @@ export const HeroSection = () => {
 
         {/* ERA Badge */}
         <div className="inline-flex items-center gap-3 bg-black/20 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3 mb-12 animate-fade-up delay-500">
-          <div className="w-8 h-8 bg-gradient-to-br from-purple-500 via-green-500 to-blue-500 rounded-full flex items-center justify-center">
-            <span className="text-white font-bold text-sm">e</span>
+          <div className="w-16 h-16 bg-gradient-to-br from-purple-500 via-green-500 to-blue-500 rounded-full flex items-center justify-center shadow-xl">
+            <span className="text-white font-black text-2xl">e</span>
           </div>
           <span className="text-primary-foreground font-medium">
             Entrepreneurs Roundtable Accelerator
@@ -48,13 +58,15 @@ export const HeroSection = () => {
 
         {/* Value Proposition */}
         <p className="text-xl md:text-2xl text-primary-foreground/90 max-w-4xl mx-auto leading-relaxed mb-12 animate-fade-up delay-700">
-          Our platform aggregates, analyzes and surfaces patterns from fragmented marketing data to enable marketers to make critical real-time decisions.
+          Our platform aggregates, analyzes and surfaces patterns from
+          fragmented marketing data to enable marketers to make critical
+          real-time decisions.
         </p>
 
         {/* CTA Button */}
         <div className="animate-fade-up delay-1000">
-          <Button 
-            size="lg" 
+          <Button
+            size="lg"
             className="bg-accent-cyan hover:bg-accent-cyan/90 text-primary font-semibold px-8 py-4 text-lg rounded-full shadow-large hover:shadow-xl transition-all duration-300 hover:scale-105"
           >
             Get Started

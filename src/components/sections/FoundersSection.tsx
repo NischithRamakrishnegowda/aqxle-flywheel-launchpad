@@ -17,6 +17,7 @@ const founders = [
     detail: "ex-head of research & investment analytics",
     image: bharadProfile,
     linkedin: "http://www.linkedin.com/in/bharadr",
+    companyLogo: wppLogo,
   },
   {
     name: "ANANDHAVELU NATARAJAN",
@@ -64,11 +65,11 @@ export const FoundersSection = () => {
                 className="overflow-hidden border-0 shadow-medium hover:shadow-large transition-all duration-300 hover:scale-105 animate-fade-up"
                 style={{ animationDelay: `${index * 200}ms` }}
               >
-                <div className="aspect-square overflow-hidden">
+                <div className="aspect-square overflow-hidden rounded-lg">
                   <img
                     src={founder.image}
                     alt={founder.name}
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500 scale-75"
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500 scale-75 rounded-lg"
                   />
                 </div>
 
@@ -135,11 +136,11 @@ export const FoundersSection = () => {
                 className="overflow-hidden border-0 shadow-medium hover:shadow-large transition-all duration-300 hover:scale-105 animate-fade-up"
                 style={{ animationDelay: `${(index + 2) * 200}ms` }}
               >
-                <div className="aspect-square overflow-hidden">
+                <div className="aspect-square overflow-hidden rounded-lg">
                   <img
                     src={advisor.image}
                     alt={advisor.name}
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500 scale-75"
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500 scale-75 rounded-lg"
                   />
                 </div>
 
