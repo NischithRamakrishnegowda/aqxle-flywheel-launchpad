@@ -23,7 +23,7 @@ export const HeroSection = () => {
           <img
             src={aqxleLogo}
             alt="Aqxle"
-            className="h-16 md:h-20 lg:h-24 mx-auto hover:scale-105 transition-transform duration-300 mb-4 brightness-200 contrast-250"
+            className="h-16 md:h-20 lg:h-24 mx-auto hover:scale-105 transition-transform duration-300 mb-4 brightness-0 invert dark:invert-0 dark:brightness-200"
           />
         </div>
         {/* Main Title */}
