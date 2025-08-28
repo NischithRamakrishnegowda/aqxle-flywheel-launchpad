@@ -27,10 +27,12 @@ export const HeroSection = () => {
           />
         </div>
         {/* Main Title */}
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-8 animate-fade-up delay-300">
-          Powering the
-          <br />
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 animate-fade-up delay-300">
           <span className="bg-gradient-to-r from-accent-cyan to-primary-foreground bg-clip-text text-transparent">
+            Powering the
+          </span>
+          <br />
+          <span className="bg-gradient-to-r from-primary-foreground to-accent-cyan bg-clip-text text-transparent">
             Marketing Flywheel
           </span>
         </h1>
