@@ -68,7 +68,7 @@ export const FoundersSection = () => {
                   <img
                     src={founder.image}
                     alt={founder.name}
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500 scale-75"
                   />
                 </div>
 
@@ -139,7 +139,7 @@ export const FoundersSection = () => {
                   <img
                     src={advisor.image}
                     alt={advisor.name}
-                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
+                    className="w-full h-full object-cover hover:scale-110 transition-transform duration-500 scale-75"
                   />
                 </div>
 
