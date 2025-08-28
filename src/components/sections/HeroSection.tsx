@@ -1,5 +1,7 @@
 import { Button } from "@/components/ui/button";
 import heroBackground from "@/assets/hero-background.jpg";
+import aqxleLogo from "@/assets/aqxle_white.webp";
+import eraLogo from "@/assets/Elogo.png";
 
 export const HeroSection = () => {
   return (
@@ -9,7 +11,7 @@ export const HeroSection = () => {
         <img
           src={heroBackground}
           alt="Data analytics visualization background"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover hero-background-filter"
         />
         <div className="absolute inset-0 hero-gradient opacity-90"></div>
       </div>
@@ -18,25 +20,12 @@ export const HeroSection = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-6 text-center">
         {/* Aqxle Logo */}
         <div className="mb-8 animate-fade-up">
-          <div className="text-8xl md:text-9xl font-black tracking-wider text-primary-foreground mb-4">
-            <span className="inline-block transform hover:scale-105 transition-transform duration-300">
-              a
-            </span>
-            <span className="inline-block transform hover:scale-105 transition-transform duration-300 delay-75">
-              q
-            </span>
-            <span className="inline-block text-accent-cyan transform hover:scale-105 transition-transform duration-300 delay-150">
-              x
-            </span>
-            <span className="inline-block transform hover:scale-105 transition-transform duration-300 delay-225">
-              l
-            </span>
-            <span className="inline-block transform hover:scale-105 transition-transform duration-300 delay-300">
-              e
-            </span>
-          </div>
+          <img
+            src={aqxleLogo}
+            alt="Aqxle"
+            className="h-16 md:h-20 lg:h-24 mx-auto hover:scale-105 transition-transform duration-300 mb-4 brightness-200 contrast-250"
+          />
         </div>
-
         {/* Main Title */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-8 animate-fade-up delay-300">
           Powering the
@@ -47,9 +36,13 @@ export const HeroSection = () => {
         </h1>
 
         {/* ERA Badge */}
-        <div className="inline-flex items-center gap-3 bg-black/20 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3 mb-12 animate-fade-up delay-500">
-          <div className="w-16 h-16 bg-gradient-to-br from-purple-500 via-green-500 to-blue-500 rounded-full flex items-center justify-center shadow-xl">
-            <span className="text-white font-black text-2xl">e</span>
+        <div className="inline-flex items-center gap-4 bg-black/20 backdrop-blur-sm border border-white/20 rounded-full px-6 py-3 mb-12 animate-fade-up delay-500">
+          <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-xl overflow-hidden">
+            <img
+              src={eraLogo}
+              alt="ERA Logo"
+              className="w-full h-full object-contain"
+            />
           </div>
           <span className="text-primary-foreground font-medium">
             Entrepreneurs Roundtable Accelerator
@@ -58,9 +51,9 @@ export const HeroSection = () => {
 
         {/* Value Proposition */}
         <p className="text-xl md:text-2xl text-primary-foreground/90 max-w-4xl mx-auto leading-relaxed mb-12 animate-fade-up delay-700">
-          Our platform aggregates, analyzes and surfaces patterns from
-          fragmented marketing data to enable marketers to make critical
-          real-time decisions.
+          Our platform enables marketers to make real-time AI driven decisions
+          by aggregating and surfacing patterns across fragmented marketing
+          datasets.
         </p>
 
         {/* CTA Button */}

@@ -1,7 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
 /* Aqxle Marketing Platform Design System */
 
 @layer base {
@@ -19,7 +20,7 @@
     --primary: 221 83% 15%;
     --primary-light: 221 83% 25%;
     --primary-foreground: 0 0% 100%;
-    
+
     /* Accent Cyan from Aqxle logo */
     --accent-cyan: 187 100% 50%;
     --accent-cyan-light: 187 100% 85%;
@@ -43,12 +44,22 @@
     --radius: 0.75rem;
 
     /* Custom Design Tokens */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--primary-light)) 100%);
-    --gradient-accent: linear-gradient(135deg, hsl(var(--accent-cyan)) 0%, hsl(var(--primary-light)) 100%);
-    --shadow-soft: 0 4px 6px -1px hsl(var(--primary) / 0.1), 0 2px 4px -1px hsl(var(--primary) / 0.06);
-    --shadow-medium: 0 10px 15px -3px hsl(var(--primary) / 0.1), 0 4px 6px -2px hsl(var(--primary) / 0.05);
+    --gradient-hero: linear-gradient(
+      135deg,
+      hsl(var(--primary)) 0%,
+      hsl(var(--primary-light)) 100%
+    );
+    --gradient-accent: linear-gradient(
+      135deg,
+      hsl(var(--accent-cyan)) 0%,
+      hsl(var(--primary-light)) 100%
+    );
+    --shadow-soft: 0 4px 6px -1px hsl(var(--primary) / 0.1),
+      0 2px 4px -1px hsl(var(--primary) / 0.06);
+    --shadow-medium: 0 10px 15px -3px hsl(var(--primary) / 0.1),
+      0 4px 6px -2px hsl(var(--primary) / 0.05);
     --shadow-large: 0 25px 50px -12px hsl(var(--primary) / 0.25);
-    
+
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-spring: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
 
@@ -116,6 +127,7 @@
 
   body {
     @apply bg-background text-foreground font-sans antialiased;
+    font-family: "Poppins", sans-serif; /* Add this line */
   }
 
   h1 {
@@ -142,5 +154,9 @@
     backdrop-filter: blur(20px);
     background: rgba(255, 255, 255, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .hero-background-filter {
+    filter: hue-rotate(180deg) saturate(0.7) brightness(0.8);
   }
 }
